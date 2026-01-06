@@ -1,0 +1,5 @@
+category,price_elasticity_proxy,elasticity_band,stock_minus_10,stock_plus_5,stock_plus_10,stock_minus_10_risk,stock_plus_5_risk,stock_plus_10_risk
+Electronics,-0.4087914974012663,Highly Elastic,0.33972793861178935,0.2870596442274154,0.2710149982560167,High,Medium,Medium
+Fashion,-0.40148569600735146,Highly Elastic,0.3282165782863522,0.2743511024281329,0.25872174155735417,High,Medium,Medium
+Grocery,-0.3939715799287345,Moderately Elastic,0.35430038510911427,0.2961061189559264,0.2819854514334617,High,Medium,Medium
+Home,-0.4122697386541633,Highly Elastic,0.3439811701412239,0.2874915938130464,0.2730329522528581,High,Medium,Medium
