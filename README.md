@@ -191,28 +191,28 @@ The most profitable pricing strategy is not always the one that maximizes demand
 
 pricing-inventory-optimization
 
-├── data
+#####├── data
 │ ├── ecommerce_pricing_raw.csv
 │ ├── ecommerce_pricing_cleaned.csv
 │ ├── ecommerce_pricing_featured.csv
 │ ├── scenario_summary.csv
 │ ├── category_decision_table.csv
 │ └── elasticity_risk_table.csv
-
-├── notebooks
+-----------------------------------------------------------
+#####├── notebooks
 │ ├── Day1_Data_Cleaning.ipynb
 │ ├── Day2_Price_Elasticity_Analysis.ipynb
 │ ├── Day3_Demand_Modeling.ipynb
 │ ├── Day5_Pricing_Scenario_Simulation.ipynb
 │ ├── Pricing_Feasibility_Inventory_Optimization.ipynb
 │ └── Elasticity_Risk_Segmentation.ipynb
-
-├── app
+-------------------------------------------------------------
+#### ├── app
 │ └── app_pricing_and_inventory_optimization.py
-
-├── requirements.txt
-├── insights.md
-└── README.md
+-------------------------------------------------------------
+#### ├── requirements.txt
+#### ├── insights.md
+#### └── README.md
 
 ---
 
