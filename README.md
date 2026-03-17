@@ -1,213 +1,248 @@
-📊 Pricing & Inventory Optimization
-Demand Elasticity, Revenue Simulation & Inventory-Aware Pricing Decisions
-📌 Project Overview
+# Pricing & Inventory Optimization
 
-Retail and e-commerce businesses often optimize prices based on theoretical demand, ignoring inventory feasibility. This leads to revenue leakage through stockouts, over-discounting, and operational inefficiencies.
+Demand Elasticity Modeling • Revenue Simulation • Inventory-Aware Pricing
 
-This project builds an end-to-end pricing and inventory optimization framework that:
+---
 
-Models price-demand relationships
+## Project Overview
 
-Simulates pricing scenarios
+Retail and e-commerce companies often optimize prices using **theoretical demand models**, without considering inventory constraints.
 
-Evaluates inventory-constrained feasibility
+This leads to:
 
-Identifies safe vs risky pricing strategies
+• Stockouts during promotions
+• Lost revenue opportunities
+• Inefficient discount strategies
+• Misalignment between pricing and operations
 
-Delivers executive-ready insights via dashboard
+This project builds an **end-to-end pricing analytics framework** that evaluates whether pricing strategies are **operationally feasible**, not just theoretically profitable.
 
-The goal is to optimize realized revenue, not just predicted demand.
+The analysis integrates **price elasticity modeling, scenario simulation, and inventory constraints** to identify pricing strategies that maximize **realized revenue**.
 
-🎯 Business Problem
+---
 
-Even if a price maximizes demand and revenue on paper, can the business actually fulfill that demand with available inventory?
+## Business Question
 
-This project answers that question using data-driven simulations and operational constraints.
+**Can a pricing strategy that maximizes demand actually be fulfilled with available inventory?**
 
-🧠 Key Concepts Applied
+The project evaluates how pricing decisions interact with:
 
-Price elasticity & demand behavior
+• demand elasticity
+• revenue potential
+• inventory availability
+• stockout risk
 
-Revenue maximization vs fulfillment feasibility
+---
 
-Inventory-aware optimization
+## Tools & Technologies
 
-Scenario simulation & stress testing
+**Programming**
 
-Executive decision analytics
+• Python
+• Pandas
+• NumPy
 
-🗂 Project Structure
-pricing-inventory-optimization/
-│
-├── data/
-│   ├── ecommerce_pricing_raw.csv
-│   ├── ecommerce_pricing_cleaned.csv
-│   ├── ecommerce_pricing_featured.csv
-│   ├── scenario_summary.csv
-│   ├── category_decision_table.csv
-│   ├── elasticity_risk_table.csv
-│
-├── notebooks/
-│   ├── Day1_Data_Cleaning.ipynb
-│   ├── Day2_Price_Elasticity_Analysis.ipynb
-│   ├── Day3_Demand_Modeling.ipynb
-│   ├── Day5_Pricing_Scenario_Simulation.ipynb
-│   ├── Pricing_Feasibility_Inventory_Optimization.ipynb
-│   ├── Elasticity_Risk_Segmentation.ipynb
-│
-├── app/
-│   └── app_pricing_and_inventory_optimization.py
-│
-├── requirements.txt
-├── README.md
+**Modeling**
 
-🔍 Project Workflow
-🟢 Data Cleaning & Preparation
+• Linear Regression (Demand Modeling)
+• Price Elasticity Analysis
 
-Cleaned raw pricing and demand data
+**Visualization**
 
-Handled missing values and inconsistencies
+• Matplotlib
 
-Created analysis-ready datasets
+**Dashboard**
 
-🟡 Price Elasticity & Demand Behavior
+• Streamlit
 
-Analyzed price vs demand relationships
+**Version Control**
 
-Identified elastic vs inelastic categories
+• Git & GitHub
 
-Evaluated promotion and competitor price impact
+---
 
-🟠 Demand Modeling & Revenue Curves
+## Dashboard Preview
 
-Trained regression model for demand prediction
+<img width="628" height="503" alt="image" src="https://github.com/user-attachments/assets/74644f63-a77f-4852-b960-4923fe7e047b" />
 
-Simulated demand across price ranges
+Interactive dashboard highlights:
 
-Identified revenue-optimal prices
+• Pricing scenario KPIs
+• Theoretical vs feasible revenue
+• Category-level pricing recommendations
+• Elasticity vs inventory risk analysis
 
-🔵 Pricing Scenario Simulation
+Live App
+https://pricing-inventory-optimization-2appeg9cg3dxgr9u6utkhjx.streamlit.app/
 
-Simulated pricing strategies:
+---
 
-Baseline
+## Project Workflow
 
-−10% discount
+### 1️⃣ Data Preparation
 
-+5% increase
+• Cleaned raw pricing and demand data
+• Handled missing values and inconsistencies
+• Created analysis-ready datasets
 
-+10% increase
+---
 
-Quantified revenue sensitivity
+### 2️⃣ Price Elasticity Analysis
 
-🔴 Inventory-Aware Pricing Feasibility
-
-Introduced inventory constraints
-
-Calculated fulfilled demand (real sales)
-
-Compared theoretical vs feasible revenue
-
-Identified stockout risks
-
-🟣 Elasticity & Risk Segmentation
-
-Segmented categories by:
-
-Price elasticity
-
-Stockout risk
+Analyzed how demand responds to price changes.
 
 Identified:
 
-Safe discount zones
+• Elastic product categories
+• Inelastic product categories
+• promotion-sensitive segments
 
-Risky price strategies
+---
 
-📈 Executive Dashboard (Streamlit)
+### 3️⃣ Demand Modeling
 
-An interactive dashboard provides:
+A regression model was trained to estimate demand at different price points.
 
-Scenario-level KPIs
+This allowed simulation of **revenue curves across pricing ranges**.
 
-Feasible vs theoretical revenue comparison
+---
 
-Category-level pricing recommendations
+### 4️⃣ Pricing Scenario Simulation
 
-Elasticity vs inventory risk visualization
+Simulated multiple pricing strategies:
 
-🔗 Live App: https://pricing-inventory-optimization-2appeg9cg3dxgr9u6utkhjx.streamlit.app/
+• Baseline price
+• −10% discount
+• +5% price increase
+• +10% price increase
 
-📊 Key Insights
+Each scenario evaluates:
 
-Aggressive discounts maximize demand but create high stockout risk
+• predicted demand
+• projected revenue
+• demand sensitivity
 
-Inventory constraints significantly reduce achievable revenue
+---
 
-Moderate pricing strategies balance profitability and execution
+### 5️⃣ Inventory-Aware Pricing Evaluation
 
-Pricing decisions must align with supply planning
+Inventory constraints were applied to determine **feasible sales volume**.
 
-💼 Business Recommendations
-Pricing Strategy
+Key metrics evaluated:
 
-Avoid deep discounts without inventory buildup
+• fulfilled demand
+• stockout risk
+• realized revenue
 
-Favor moderate price changes with stable fulfillment
+This step highlights the difference between **theoretical revenue and achievable revenue**.
 
-Inventory Coordination
+---
 
-Increase stock before promotional campaigns
+### 6️⃣ Elasticity & Risk Segmentation
 
-Align pricing actions with replenishment cycles
+Categories were segmented based on:
 
-Executive Takeaway:
-Optimize for realized revenue, not theoretical demand.
+• price elasticity
+• stockout probability
 
-🛠 Tools & Technologies
+This enables identification of:
 
-Python: Pandas, NumPy, Scikit-learn
+• safe discount ranges
+• high-risk promotional strategies
 
-Modeling: Linear Regression
+---
 
-Visualization: Matplotlib
+## Key Insights
 
-Dashboard: Streamlit
+• Deep discounts increase demand but significantly raise stockout risk
+• Inventory constraints reduce achievable revenue versus theoretical forecasts
+• Moderate pricing strategies deliver the most reliable revenue outcomes
+• Pricing decisions must align with supply planning
 
-BI (Optional): Power BI
+---
 
-Version Control: Git & GitHub
+## Business Recommendations
 
-⚠️ Assumptions & Disclaimer
+### Pricing Strategy
 
-Inventory levels are simulated
+Avoid aggressive discounts without inventory readiness.
 
-Demand model is linear for interpretability
+Moderate pricing adjustments produce **more stable revenue outcomes**.
 
-Results are directional and illustrative
+---
 
-Real-world deployment would require:
+### Inventory Planning
 
-Live inventory feeds
+Promotional campaigns should be aligned with:
 
-Advanced elasticity models
+• inventory availability
+• replenishment cycles
+• demand forecasts
 
-Continuous monitoring
+---
 
-🚀 Future Enhancements
+### Executive Takeaway
 
-Non-linear demand models
+The most profitable pricing strategy is not always the one that maximizes demand — it is the one that **maximizes fulfilled revenue**.
 
-Dynamic pricing optimization
+---
 
-Supply-chain lead-time integration
+## Project Structure
 
-SHAP-based explainability
+pricing-inventory-optimization
 
-Automated price recommendations
+├── data
+│ ├── ecommerce_pricing_raw.csv
+│ ├── ecommerce_pricing_cleaned.csv
+│ ├── ecommerce_pricing_featured.csv
+│ ├── scenario_summary.csv
+│ ├── category_decision_table.csv
+│ └── elasticity_risk_table.csv
 
-👤 Author
+├── notebooks
+│ ├── Day1_Data_Cleaning.ipynb
+│ ├── Day2_Price_Elasticity_Analysis.ipynb
+│ ├── Day3_Demand_Modeling.ipynb
+│ ├── Day5_Pricing_Scenario_Simulation.ipynb
+│ ├── Pricing_Feasibility_Inventory_Optimization.ipynb
+│ └── Elasticity_Risk_Segmentation.ipynb
+
+├── app
+│ └── app_pricing_and_inventory_optimization.py
+
+├── requirements.txt
+├── insights.md
+└── README.md
+
+---
+
+## Assumptions
+
+• Inventory levels are simulated
+• Demand model uses linear regression for interpretability
+• Results illustrate pricing strategy trade-offs
+
+Production deployment would require:
+
+• real inventory feeds
+• advanced elasticity models
+• continuous monitoring
+
+---
+
+## Future Enhancements
+
+• Non-linear demand modeling
+• Dynamic pricing optimization
+• Supply-chain lead time integration
+• Explainable AI for price decisions
+• Automated price recommendation engine
+
+---
+
+## Author
 
 Amneet Kaur
 Data Analyst | Pricing Analytics | Inventory Optimization
-📍 Canada
+Canada
+
