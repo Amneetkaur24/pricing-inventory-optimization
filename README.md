@@ -204,7 +204,6 @@ pricing-inventory-optimization
 
 │ └── elasticity_risk_table.csv
 
------------------------------------------------------------
 ├── notebooks
 │ ├── Day1_Data_Cleaning.ipynb
 
@@ -217,10 +216,10 @@ pricing-inventory-optimization
 │ ├── Pricing_Feasibility_Inventory_Optimization.ipynb
 
 │ └── Elasticity_Risk_Segmentation.ipynb
--------------------------------------------------------------
+
 ├── app
 │ └── app_pricing_and_inventory_optimization.py
--------------------------------------------------------------
+
 ├── requirements.txt
 
 ├── insights.md
