@@ -212,18 +212,10 @@ pricing-inventory-optimization
 │   ├── 06_Pricing_Scenarios.ipynb.ipynb
 │   └── 07_Final Summary Notebook.ipynb.ipynb
 │
-├── notebooks
-│   ├── Demand_Modeling.ipynb.ipynb
-│   ├── Elasticity_Analysis.ipynb.ipynb
-│   ├── Elasticity_Risk_Segmentation.ipynb.ipynb
-│   ├── Final Summary Notebook.ipynb.ipynb
-│   ├── Inventory_Feasibility.ipynb.ipynb
-│   └── Pricing_Scenarios.ipynb.ipynb
-│
+├── 04_insights.md
 ├── 05_Dashboard Price And Inventory.pbix
-├── Pricing and Optimization.pptx
+├── 06_Pricing and Optimization.pptx
 ├── README.md
-├── insights.md
 └── requirements.txt
 ```
 ---
