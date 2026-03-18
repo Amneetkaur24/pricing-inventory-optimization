@@ -34,32 +34,6 @@ The project evaluates how pricing decisions interact with:
 
 ---
 
-## Tools & Technologies
-
-**Programming**
-
-• Python
-• Pandas
-• NumPy
-
-**Modeling**
-
-• Linear Regression (Demand Modeling)
-• Price Elasticity Analysis
-
-**Visualization**
-
-• Matplotlib
-
-**Dashboard**
-
-• Streamlit
-
-**Version Control**
-
-• Git & GitHub
-
----
 
 ## Dashboard Preview
 
@@ -186,7 +160,32 @@ Promotional campaigns should be aligned with:
 The most profitable pricing strategy is not always the one that maximizes demand — it is the one that **maximizes fulfilled revenue**.
 
 ---
+## Tools & Technologies
 
+**Programming**
+
+• Python
+• Pandas
+• NumPy
+
+**Modeling**
+
+• Linear Regression (Demand Modeling)
+• Price Elasticity Analysis
+
+**Visualization**
+
+• Matplotlib
+
+**Dashboard**
+
+• Streamlit
+
+**Version Control**
+
+• Git & GitHub
+
+---
 ## Project Structure
 
 pricing-inventory-optimization
