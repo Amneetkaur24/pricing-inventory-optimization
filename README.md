@@ -2,6 +2,8 @@
 
 Demand Elasticity Modeling • Revenue Simulation • Inventory-Aware Pricing
 
+<img width="628" height="503" alt="image" src="https://github.com/user-attachments/assets/74644f63-a77f-4852-b960-4923fe7e047b" />
+
 ---
 
 ## Project Overview
@@ -33,11 +35,6 @@ The project evaluates how pricing decisions interact with:
 • stockout risk
 
 ---
-
-
-## Dashboard Preview
-
-<img width="628" height="503" alt="image" src="https://github.com/user-attachments/assets/74644f63-a77f-4852-b960-4923fe7e047b" />
 
 Interactive dashboard highlights:
 
