@@ -187,44 +187,45 @@ The most profitable pricing strategy is not always the one that maximizes demand
 
 ---
 ## Project Structure
-
+```
 pricing-inventory-optimization
-
-├── data
-│ ├── ecommerce_pricing_raw.csv
-
-│ ├── ecommerce_pricing_cleaned.csv
-
-│ ├── ecommerce_pricing_featured.csv
-
-│ ├── scenario_summary.csv
-
-│ ├── category_decision_table.csv
-
-│ └── elasticity_risk_table.csv
-
+│
+├── 01_app
+│   ├── app_pricing_and_inventory_optimization.ipynb
+│   └── app_pricing_and_inventory_optimization.py
+│
+├── 02_data
+│   ├── category_decision_table.csv
+│   ├── ecommerce_pricing_cleaned.csv
+│   ├── ecommerce_pricing_featured.csv
+│   ├── ecommerce_pricing_featured_02.csv
+│   ├── ecommerce_pricing_raw.csv
+│   ├── elasticity_risk_table.csv
+│   └── scenario_summary.csv
+│
+├── 03_notebooks
+│   ├── 01_Category_Strategy.ipynb.ipynb
+│   ├── 02_Demand_Modeling.ipynb.ipynb
+│   ├── 03_Elasticity_Analysis.ipynb.ipynb
+│   ├── 04_Elasticity_Risk_Segmentation.ipynb.ipynb
+│   ├── 05_Inventory_Feasibility.ipynb.ipynb
+│   ├── 06_Pricing_Scenarios.ipynb.ipynb
+│   └── 07_Final Summary Notebook.ipynb.ipynb
+│
 ├── notebooks
-│ ├── Day1_Data_Cleaning.ipynb
-
-│ ├── Day2_Price_Elasticity_Analysis.ipynb
-
-│ ├── Day3_Demand_Modeling.ipynb
-
-│ ├── Day5_Pricing_Scenario_Simulation.ipynb
-
-│ ├── Pricing_Feasibility_Inventory_Optimization.ipynb
-
-│ └── Elasticity_Risk_Segmentation.ipynb
-
-├── app
-│ └── app_pricing_and_inventory_optimization.py
-
-├── requirements.txt
-
+│   ├── Demand_Modeling.ipynb.ipynb
+│   ├── Elasticity_Analysis.ipynb.ipynb
+│   ├── Elasticity_Risk_Segmentation.ipynb.ipynb
+│   ├── Final Summary Notebook.ipynb.ipynb
+│   ├── Inventory_Feasibility.ipynb.ipynb
+│   └── Pricing_Scenarios.ipynb.ipynb
+│
+├── 05_Dashboard Price And Inventory.pbix
+├── Pricing and Optimization.pptx
+├── README.md
 ├── insights.md
-
-└── README.md
-
+└── requirements.txt
+```
 ---
 
 ## Assumptions
