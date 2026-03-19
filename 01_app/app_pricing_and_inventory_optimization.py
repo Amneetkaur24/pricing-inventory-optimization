@@ -32,7 +32,7 @@ It is designed for **executive decision-making** and operational planning.
 # Robust Data Loading (PRODUCTION SAFE)
 # ----------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+DATA_DIR = os.path.join(BASE_DIR, "..", "02_data")
 
 scenario_df = pd.read_csv(os.path.join(DATA_DIR, "scenario_summary.csv"))
 category_df = pd.read_csv(os.path.join(DATA_DIR, "category_decision_table.csv"))
