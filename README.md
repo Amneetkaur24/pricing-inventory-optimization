@@ -6,6 +6,10 @@ Demand Elasticity Modeling • Revenue Simulation • Inventory-Aware Pricing
 
 ---
 
+Live App: https://pricing-inventory-optimization-gsqcvbcchnzbshjzshckjg.streamlit.app/
+
+---
+
 ## Project Overview
 
 Retail and e-commerce companies often optimize prices using **theoretical demand models**, without considering inventory constraints.
